@@ -1,0 +1,120 @@
+.body {
+	scroll-behavior: smooth;
+	scroll-behavior: smooth;
+	color: aliceblue;
+}
+.sidebar-heading {
+	background-color: aqua;
+	color: red;
+	margin-left: -30px;
+	padding-left: 0px;
+	padding: 5px;
+	margin-top: 50px;
+}
+.navbar-12 {
+	background-color: rgba(47, 30, 121, 0.733);
+	border-radius: 5px rgb(1, 26, 255);
+}
+.paid-courses {
+	color: rgb(0, 195, 255);
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.about-us {
+	animation-name: a1;
+	animation-duration: 1s;
+	animation-iteration-count: 10000000000000000;
+	transition-timing-function: ease-in-out;
+	transition-property: all;
+}
+
+@keyframes a1 {
+	from {
+		scroll-behavior: smooth;
+		margin-left: -100px;
+		transition-timing-function: ease-in-out;
+		background-color: antiquewhite;
+	}
+	to {
+		margin-left: 100px;
+		transition-timing-function: ease-in-out;
+
+		color: rgb(0, 255, 242);
+	}
+	from {
+	}
+	to {
+	}
+}
+.name12 {
+	animation-name: name12;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+
+@keyframes name12 {
+	from {
+		margin-top: -300px;
+		color: rgb(255, 255, 255);
+		width: 20px;
+	}
+	to {
+		color: rgb(3, 226, 255);
+		margin-top: 50px;
+		width: 400px;
+	}
+	from {
+	}
+	to {
+	}
+}
+.a2 {
+	animation-name: a2;
+	animation-duration: 12s;
+	animation-iteration-count: 1000000;
+}
+
+@keyframes a2 {
+	from {
+		display: none;
+		background-color: rgb(255, 255, 255);
+		width: 0px;
+		color: rgb(0, 0, 0);
+	}
+	to {
+		color: white;
+		width: 190px;
+		background-color: rgb(51, 44, 44);
+		display: content;
+	}
+	from {
+	}
+	to {
+	}
+}
+.courses {
+	animation-name: courses;
+	animation-duration: 3s;
+	animation-iteration-count: 10000;
+}
+
+@keyframes courses {
+	from {
+		color: rgb(0, 0, 0);
+		margin-left: -200px;
+	}
+	to {
+		text-transform: uppercase;
+		width: 100px;
+		color: rgb(243, 2, 2);
+		margin-left: 20px;
+	}
+	from {
+	}
+	to {
+	}
+}
+.navbar-head:hover {
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
